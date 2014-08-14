@@ -1,0 +1,22 @@
+a{
+  text-decoration:none;
+  color:#000000;
+}
+.clear{
+  text-decoration:none;
+}
+.ulist{
+  list-style:none;
+  margin:13.4px 80px 13.4px 80px;
+  padding:0;
+  text-align:right;
+}
+.link{
+  display: inline;
+  text-align: right;
+  margin-left:100px;
+}
+.logo{
+  font-size:1.25em;
+  padding-left:80px;
+}
