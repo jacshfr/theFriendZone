@@ -1,6 +1,27 @@
 *, *:before, *:after{
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   font-family:"Josefin Sans, Maven Pro, Gudea";
 }
 header{
-	background-color: #F4CCFF;
+	background-color: #004646;
+}
+footer{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top:50px;
+	border-bottom:50px;
+	background-color:#004646;
+	padding-top:50px;
+	color:#FFFFFF;
+}
+h1{
+	font-weight:normal;
+}
+h2{
+	font-size:1em;
+	text-align:center;
+	font-weight:normal;
+	margin-top:50px;
+	margin-bottom:0;
 }
