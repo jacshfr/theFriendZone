@@ -1,0 +1,83 @@
+*, *:before, *:after{
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+  background-color: #FCF8F2;
+  background-repeat: repeat;
+  font-family: sans-serif;
+}
+header {
+	background-color: #F4CCFF;
+  position: fixed;
+  overflow: scroll;
+}
+
+aside {
+  margin-top: 100px;
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 10px;
+  font-size: .85em;
+}
+
+article {
+  margin-top: 100px;
+  display: inline;
+  padding-left: 100px;
+}
+
+aside section h1 {
+  font-size: 2em;
+  text-align: left;
+}
+
+#Links {
+  font-size: 1em;
+}
+
+section p {
+  font-size: 1em;
+}
+
+label {
+  font-size: 1em;
+  line-height: 2em;
+  width: 219px;
+  display: inline;
+}
+
+fieldset {
+    font-family: sans-serif;
+    border: 5px solid #1F497D;
+    background-color: #ddd;
+    display: inline;
+}
+
+fieldset legend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+    overflow: scroll;
+}
+
+img {
+  background-color: transparent;
+}
+
+#expdt {
+  width: 45px;
+}
+
+#ccn {
+  width: 150px;
+}
+

@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <title>theFriendZone</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/layout.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/module.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/states.css">
+  </head>
+  <body class="container">
+    <header>
+      <h1 class="four columns logo">
+        <a href="#">theFriendZone</a>
+      </h1>
+      <nav class="twelve columns">
+        <ul class="ulist">
+          <li class="link">
+            <a href="#">Home</a>
+          </li>
+          <li class="link">
+            <a href="#">About</a>
+          </li>
+          <li class="link">
+            <a href="#">Subscribe</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="three columns">
+      <section>
+        <h1 id="Links">Links</h1>
+        <ul>
+          <li><a href=""/>Social Interaction Decoded</a></li>
+          <br />
+          <li><a href=""/>We don't judge. Well, we try not to.</a></li>
+          <br />
+          <li><a href=""/>It takes a friend to know a friend.</a></li>
+          <br />
+          <li><a href=""/>Everyone's best friend.(It's not a dog)</a></li>
+          <br />
+          <li><a href=""/>The health benefits of friendship.</a></li>
+          <br />
+          <li><a href=""/>What if they don't like me?</a></li>
+          <br />
+          <li><a href=""/>What it means to be a friend</a></li>
+        </ul>
+      </section>
+    </aside>
+    <article class="thirteen columns">
+      <fieldset class="five columns">
+        <legend>New theFriend</legend>
+        <p>
+          <label class="four columns">
+            Email
+          <br />
+          <input id="email" class="four columns" type="email" name="email" placeholder="yourname@email.com" value=""/>
+          </label>
+          <br />
+          <label class="four columns">
+            Name
+          <br />
+          <input id="name" class="four columns" type="text" name="name" placeholder="John Doe" value=""/>
+          </label>
+          <br />
+          <label class="four columns">
+            Street Address<br />
+          <input id="streetAddress" type="text" name="streetAddress" placeholder="1234 Your Street" value="">
+          </label class="four columns">
+          <br />
+          <label class="four columns">
+            City, State Zip
+          <br />
+          <input id="cityStatezip" type="text" name="cityStatezip" placeholder="Your City, WA 00000" value="">
+          </label>
+          <br />
+          <label class="four columns">
+            Card Number
+          <br />
+          <input id="ccn" type="text" name="creditCardinfo" placeholder="xxxx-xxxx-xxxx-xxxx" value="">
+          </label>
+          <label class="four columns">
+            Exp. Date
+          <input id="expdt" type="text" name="expDate" placeholder="xx/xx" value="jo">
+          </label>
+          <br />
+          <label>
+            When would you like your first friend?
+          <br />
+          <input id="firstDate" type="date" name="Date" value="">
+          </label class="four columns">
+          <br />
+          <section>
+            <div id="Terms">Please verify you've read and<br />agree to our Terms and Conditions.</div>
+            <div id="no_terms"></div>
+            <input id="chk_box" type="checkbox" name="chk_box" value="checked"/>
+            <a href="">Terms and Conditions</a>
+
+          </section>
+          <br />
+          <input id="submit" type="submit" value="Submit" />
+          <p id="Warning"></p>
+        </p>
+      </fieldset>
+    </article>
+    <footer>
+    </footer>
+  </body>
+  <script src="theFriendZone_form.js"></script>
+</html>
