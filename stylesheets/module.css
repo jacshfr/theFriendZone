@@ -1,22 +1,109 @@
-a{
-  text-decoration:none;
-  color:#000000;
-}
-.clear{
-  text-decoration:none;
-}
-.ulist{
+
+ul{
   list-style:none;
   margin:13.4px 80px 13.4px 80px;
   padding:0;
   text-align:right;
 }
-.link{
+li{
   display: inline;
   text-align: right;
-  margin-left:100px;
+}
+span{
+  font-size:0.5em;
+}
+h1{
+  background-size:cover;
+}
+body{
+  background-color:#FFFFF0;
+}
+.link-margins{
+  margin-left:80px;
+}
+.reset{
+  text-decoration:none;
+  color:#FFFFF0;
 }
 .logo{
+  font-size: 1.25em;
+  padding-left: 100px;
+  text-align:left;
+}
+.title{
+  padding-top:70px;
+  text-align:center;
+  font-size:4em;
+  color:#FFFFFF;
+}
+.title-color{
+  background-image:url("images/seattle.jpg");
+  background-size:cover;
+}
+.quote{
+  text-align:center;
+  font-size:2.75em;
+  color:#FFFFF0;
+  margin-top:0;
+  border:2px solid #004646;
+}
+.format1{
+  background-image:url("images/walking1.jpg");
+  height:600px;
+  padding-top:50px;
+  height:700px;
+}
+.format2{
+  background-image:url("images/eric.jpg");
+  height:200px;
+  padding-top:50px;
+}
+.format3{
+  background-image:url("images/jessica.jpg");
+  height:500px;
+  padding-top:250px;
+}
+.format4{
+  background-image:url("images/friends.jpg");
+  height:430px;
+  margin-top:-340px;
+  padding-top:150px;
+}
+.format5{
+  background-image:url("images/person2.jpg");
+  margin-top:-30px;
+  margin-bottom:-2px;
+}
+.format6{
+  background-image:url("images/person1.jpg");
+  margin-top:-260px;
+  margin-bottom:0px;
+  padding-top:78px;
+  padding-bottom:78px;
+}
+.format7{
+  background-image:url("images/person4.jpg");
+  margin-top:-260px;
+  padding-top:103px;
+  padding-bottom:155px;
+  margin-bottom:0px;
+}
+.format8{
+  background-image:url("images/seattle2.jpg");
+  width:960px;
+  height:200px;
+  margin:0 auto;
+  padding-top:75px;
+}
+.foothead{
+  display:inline;
   font-size:1.25em;
-  padding-left:80px;
+  font-weight:normal;
+  margin-left:40px;
+}
+.socialmedia{
+  font-size:1.25em;
+}
+.link-margins1{
+  margin-left:60px;
 }
