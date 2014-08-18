@@ -2,11 +2,55 @@
    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
    font-family:"Josefin Sans, Maven Pro, Gudea";
 }
+
+body {
+  background-color:#FFFFF0;
+  background-repeat: repeat;
+  font-family: sans-serif;
+}
+
 header{
 	background-color: #004646;
+	position: relative;
 }
+
+aside {
+  margin-top: 100px;
+  display: inline;
+  border-width: 0px;
+}
+
+aside h1 {
+  font-size: 2em;
+  text-align: left;
+}
+
+aside section {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 10px;
+  font-size: 1em;
+}
+
+#Links {
+  font-size: 2em;
+}
+.main{
+  margin-top: 50px;
+  display: inline;
+  padding-left: 100px;
+  border-width: 0px;
+  margin-bottom: 25px;
+}
+
+.main .pic {
+	padding-left: 0px;
+}
+article p {
+  font-size: 1em;
+}
+
 footer{
-	width:960px;
 	margin-left: auto;
 	margin-right: auto;
 	border-top:50px;
@@ -15,9 +59,11 @@ footer{
 	padding-top:50px;
 	color:#FFFFFF;
 }
+
 h1{
 	font-weight:normal;
 }
+
 h2{
 	font-size:1em;
 	text-align:center;
