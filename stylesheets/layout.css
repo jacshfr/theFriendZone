@@ -1,27 +1,49 @@
 *, *:before, *:after{
    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-   font-family:"Josefin Sans, Maven Pro, Gudea";
+   font-family: "Josefin Sans, Maven Pro, Gudea";
 }
 header{
 	background-color: #004646;
 }
+body{
+  background-color: #FFFFF0;
+}
 footer{
-	width:960px;
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	border-top:50px;
-	border-bottom:50px;
-	background-color:#004646;
-	padding-top:50px;
-	color:#FFFFFF;
+	border-top: 50px;
+	border-bottom: 50px;
+	background-color: #004646;
+	padding-top: 50px;
+	color: #FFFFFF;
+	clear:both;
 }
-h1{
-	font-weight:normal;
+aside {
+  margin-top: 0px;
+  display: inline;
+  border-width: 0px;
 }
-h2{
-	font-size:1em;
-	text-align:center;
-	font-weight:normal;
-	margin-top:50px;
-	margin-bottom:0;
+aside h1 {
+  font-size: 2em;
+  text-align: left;
+}
+aside section {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 10px;
+  font-size: 1em;
+}
+#Links {
+  font-size: 2em;
+}
+.main{
+  margin-top: 50px;
+  display: inline;
+  padding-left: 100px;
+  border-width: 0px;
+  margin-bottom: 25px;
+}
+.main .pic {
+	padding-left: 0px;
 }

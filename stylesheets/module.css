@@ -1,109 +1,111 @@
-
+h1{
+  font-weight: normal;
+  background-size: cover;
+}
+h2{
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 50px;
+}
 ul{
-  list-style:none;
-  margin:13.4px 80px 13.4px 80px;
-  padding:0;
-  text-align:right;
+  list-style: none;
+  margin: 13.4px 80px 13.4px 80px;
+  padding: 0;
+  text-align: right;
 }
 li{
   display: inline;
   text-align: right;
 }
 span{
-  font-size:0.5em;
-}
-h1{
-  background-size:cover;
-}
-body{
-  background-color:#FFFFF0;
+  font-size: 0.5em;
 }
 .link-margins{
-  margin-left:80px;
+  margin-left: 80px;
 }
 .reset{
-  text-decoration:none;
-  color:#FFFFF0;
+  color: #FFFFF0;
+  text-decoration: none;
 }
 .logo{
   font-size: 1.25em;
   padding-left: 100px;
-  text-align:left;
+  text-align: left;
 }
 .title{
-  padding-top:70px;
-  text-align:center;
-  font-size:4em;
-  color:#FFFFFF;
+  color: #FFFFFF;
+  font-size: 4em;
+  padding-top: 70px;
+  text-align: center;
 }
 .title-color{
-  background-image:url("images/seattle.jpg");
-  background-size:cover;
+  background-image: url("images/seattle.jpg");
+  background-size: cover;
 }
 .quote{
-  text-align:center;
-  font-size:2.75em;
-  color:#FFFFF0;
-  margin-top:0;
-  border:2px solid #004646;
+  border: 2px solid #004646;
+  color: #FFFFF0;
+  font-size: 2.75em;
+  margin-top: 0;
+  text-align: center;
 }
 .format1{
-  background-image:url("images/walking1.jpg");
-  height:600px;
-  padding-top:50px;
-  height:700px;
+  background-image: url("images/image1.jpg");
+  height: 600px;
+  padding-top: 50px;
 }
 .format2{
-  background-image:url("images/eric.jpg");
-  height:200px;
-  padding-top:50px;
+  background-image: url("images/image2.jpg");
+  height: 200px;
+  padding-top: 50px;
 }
 .format3{
-  background-image:url("images/jessica.jpg");
-  height:500px;
-  padding-top:250px;
+  background-image: url("images/image3.jpg");
+  height: 500px;
+  padding-top: 250px;
 }
 .format4{
-  background-image:url("images/friends.jpg");
-  height:430px;
-  margin-top:-340px;
-  padding-top:150px;
+  background-image: url("images/image4.jpg");
+  height: 430px;
+  margin-top: -340px;
+  padding-top: 150px;
 }
 .format5{
-  background-image:url("images/person2.jpg");
-  margin-top:-30px;
-  margin-bottom:-2px;
+  background-image: url("images/image5.jpg");
+  margin-bottom: -2px;
+  margin-top: -30px;
 }
 .format6{
-  background-image:url("images/person1.jpg");
-  margin-top:-260px;
-  margin-bottom:0px;
-  padding-top:78px;
-  padding-bottom:78px;
+  background-image: url("images/image6.jpg");
+  margin-bottom: 0px;
+  margin-top: -260px;
+  padding-bottom: 78px;
+  padding-top: 78px;
 }
 .format7{
-  background-image:url("images/person4.jpg");
-  margin-top:-260px;
-  padding-top:103px;
-  padding-bottom:155px;
-  margin-bottom:0px;
+  background-image: url("images/image7.jpg");
+  margin-bottom: 0px;
+  margin-top: -260px;
+  padding-bottom: 155px;
+  padding-top: 103px;
 }
 .format8{
-  background-image:url("images/seattle2.jpg");
-  width:960px;
-  height:200px;
-  margin:0 auto;
-  padding-top:75px;
+  background-image: url("images/seattle2.jpg");
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 75px;
+  width: 960px;
 }
-.foothead{
-  display:inline;
-  font-size:1.25em;
-  font-weight:normal;
-  margin-left:40px;
+.foot{
+  display: inline;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-left: 40px;
 }
-.socialmedia{
-  font-size:1.25em;
+.foot-margin{
+  margin-left: 60px;
 }
-.link-margins1{
-  margin-left:60px;
+.form{
+  padding-top: 50px;
 }
